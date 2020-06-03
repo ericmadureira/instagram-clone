@@ -12,7 +12,7 @@ const Container = () => {
     <Home>
       Home Page
     </Home>
-  )
-}
+  );
+};
 
 export default Container;
