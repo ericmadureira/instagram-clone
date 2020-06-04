@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import StoriesBar from '../components/StoriesBar';
+
 const Home = styled.div`
   align-items: center;
   display: flex;
@@ -10,7 +12,7 @@ const Home = styled.div`
 const Container = () => {
   return (
     <Home>
-      Home Page
+      <StoriesBar />
     </Home>
   );
 };
